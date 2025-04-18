@@ -43,7 +43,7 @@ docker-compose up -d
 
 ```bash
 mvn clean install
-java -jar target/SpringSecurityJwtCRUD-0.0.1-SNAPSHOT.jar
+java -jar target/SecureTaskManager-0.0.1-SNAPSHOT.jar
 ```
 
 The application should now be running on [http://localhost:8080](http://localhost:8080).
