@@ -60,6 +60,10 @@ Use Postman to test endpoints:
 | POST   | /tasks | Create a new task | ADMIN |
 | PUT    | /tasks/{id} | Update an existing task | ADMIN |
 
+Log in using a predefined user, for example:
+john / 12345 (role: ADMIN)
+![image](https://github.com/user-attachments/assets/fab8fa84-d5fc-45b8-a0ef-643b5bd8100f)
+
 
 ### 📥 POST `/tasks` – Add a New Task
 **Required Role:** `ADMIN`  
