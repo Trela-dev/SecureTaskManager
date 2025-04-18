@@ -60,8 +60,15 @@ Use Postman to test endpoints:
 | POST   | /tasks | Create a new task | ADMIN |
 | PUT    | /tasks/{id} | Update an existing task | ADMIN |
 
-Log in using a predefined user, for example:
-john / 12345 (role: ADMIN)
+### 🔐 Authentication Required for All Endpoints
+
+All secured API endpoints require **Basic Authentication**.
+
+Use one of the predefined users to access the endpoints.  
+Example credentials: `john` / `12345` (role: `ADMIN`)
+
+You must include the Basic Auth credentials **in every request**.
+
 ![image](https://github.com/user-attachments/assets/fab8fa84-d5fc-45b8-a0ef-643b5bd8100f)
 
 
