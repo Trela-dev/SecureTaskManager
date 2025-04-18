@@ -27,8 +27,8 @@ The Secure Task Manager is a Spring Boot application that provides a RESTful API
 
 ### 🏗 Step 1: Clone the Repository
 ```bash
-git clone https://github.com/Trela-dev/SpringSecurityJwtCRUD.git
-cd SpringSecurityJwtCRUD
+git clone https://github.com/Trela-dev/SecureTaskManager.git
+cd SecureTaskManager
 ```
 
 ### 🐳 Step 2: Start PostgreSQL Database in Docker
